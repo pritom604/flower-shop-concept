@@ -102,7 +102,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50% 50% 0 0;
-    border: 2px solid red;
+    
    
 }
 
@@ -122,4 +122,39 @@ body{
 }
 #third{
     background-color: rgba(71, 125, 17, 0.15);
+}
+
+.instagram-section-container{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+.instagram-text-content{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+
+.instagram-image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.first-insta-image , .second-insta-image , .third-insta-image, .fourth-insta-image , .fifth-insta-image , .sixth-insta-image{
+    width: 342px;
+    height: 396px;
+    
+    
+}
+.first-insta-image img , .second-insta-image img , .third-insta-image img, .fourth-insta-image img , .fifth-insta-image img , .sixth-insta-image img {
+    width: 80%;
+    height: 80%;
+    margin-left: 25px;
+    margin-top: 25px;
 }
