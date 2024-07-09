@@ -10,3 +10,63 @@
 body{
     font-family: "Lato", sans-serif;
 }
+
+.banner-section-container{
+    max-width: 1440px;
+    height: 600px;
+    background-color: rgba(229, 84, 115, 0.1);
+    /* margin: 0 auto; */
+    
+    
+}
+
+.banner-content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-text-container{
+   width: 50%;
+   height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text-container h1{
+    color: rgb(39, 39, 39);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-text-container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 93px;
+    margin-bottom: 20px;
+
+}
+.banner-text-container button{
+    margin-left: -320px;
+    padding:  10px 20px ;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+}
+
+.banner-image-container{
+    width: 50%;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner-image-container img{
+    width: 50%;
+   height: 450px;
+}
